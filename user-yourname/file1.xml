@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>File 1</name>
+		<name>Custom</name>
+		<description>Test</description>
 		<update version="1.0.0">
 			<file name="file1.xml" url="https://raw.githubusercontent.com/yourgithubaccount/repositoryname/master/user-yourname/file1.xml" />
 		</update>
 	</info>
 	
 	<!-- place your elements here -->
-	
+	<element name="Feyborn"" type="Background" source="custom" id="ID_PY_C_BACKGROUND_FEYBORN">
+		<description><p>You were born in the Feywild. You have not come in touch with Civilization but only heard about them from Stories told by travellers</p></description>
+		<rules>
+			<select type="Proficiency" name"Skill Proficiency (Feyborn)" supports="Skills" number="2"/>
+			<select type="Language" name"Language (Feyborn)" number="2"/>
+		</rules>
 </elements>
